@@ -1,0 +1,25 @@
+<div class="calculator">
+    <div class="display">
+        <div class="input">{{ currentInput }}</div>
+        <div class="result">{{ result }}</div>
+    </div>
+    <div class="buttons">
+        <button (click)="clear()">C</button>
+        <button (click)="appendNumber('1')">1</button>
+        <button (click)="appendNumber('2')"></button>
+        <button (click)="appendNumber('3')"></button>
+        <button (click)="appendNumber('+')"></button>
+        <button (click)="appendNumber('4')"></button>
+        <button (click)="appendNumber('5')"></button>
+        <button (click)="appendNumber('6')"></button>
+        <button (click)="appendNumber('-')"></button>
+        <button ( click)="appendNumber('7')"></button>
+        <button (click)="appendNumber('8')"></button>
+        <button (click)="appendNumber('9')"></button>
+        <button (click)="appendNumber('*')"></button>
+        <button (click)="appendNumber('0')"></button>
+        <button (click)="appendNumber('.')"></button>
+        <button (click)="calculate()">=</button>
+        <button (click)="appendNumber('/')">/</button>
+    </div>
+</div>
